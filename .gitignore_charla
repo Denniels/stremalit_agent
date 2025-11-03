@@ -1,0 +1,191 @@
+# =================================================================
+# GITIGNORE PARA DÍA DE LA CHARLA
+# =================================================================
+# Este archivo reemplazará .gitignore el día de la charla
+# para hacer visible todo el código del proyecto.
+
+# =================================================================
+# GITIGNORE ESTÁNDAR PYTHON (solo archivos temporales)
+# =================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environments específicos del proyecto
+.streamlit_agent/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# =================================================================
+# IDE Y EDITORES
+# =================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =================================================================
+# SISTEMA OPERATIVO
+# =================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+
+# =================================================================
+# ARCHIVOS TEMPORALES
+# =================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# =================================================================
+# LOGS Y DEBUGGING
+# =================================================================
+*.log
+debug.log
+error.log
+
+# =================================================================
+# WORKSPACES GENERADOS (opcional, para evitar apps de ejemplo)
+# =================================================================
+# src/workspace/*/
+
+# =================================================================
+# NOTA: DÍA DE LA CHARLA
+# =================================================================
+# Este .gitignore muestra todo el código del proyecto.
+# Solo oculta archivos temporales y del sistema.
+# El código fuente completo es visible públicamente.
