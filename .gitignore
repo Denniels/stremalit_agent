@@ -11,6 +11,8 @@
 
 # Directorios principales del proyecto
 src/
+!src/docs/
+!src/docs/arquitectura_agente.png
 tests/
 .streamlit_agent/
 
