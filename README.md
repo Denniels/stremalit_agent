@@ -1,7 +1,7 @@
 ﻿# 🤖 Sistema Multi-Agente con LangGraph
 **Un sistema inteligente de generación automática de aplicaciones usando arquitectura multi-agente**
 
-![Arquitectura del Sistema](src/docs/arquitectura_agente.png)
+![Arquitectura del Sistema](arquitectura_agente.png)
 
 ## 🎯 Descripción del Proyecto
 
